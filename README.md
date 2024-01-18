@@ -6,7 +6,7 @@ Det er vist en klassiker når det kommer til at lære simpel input og output, me
 
 Programmet *er* allerede skrevet, og fungerer, så *din* opgave er at få det til at køre på din egen maskine, og læse og forstå koden.
 
-Opgaven er mere grundigt beskrevet i dette Notion-dokument, men kort fortalt er trinnene:
+Opgaven er mere grundigt beskrevet i [dette Notion-dokument](https://petlatkea.notion.site/DSA-2024A-introduktions-velse-5f759d31627f4c0abd4083a07a6c47aa), men kort fortalt er trinnene:
 
 1. Fork dette repository
 2. Lav en mappe på din computer til projektet
