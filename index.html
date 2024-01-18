@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velkommen til DSA-2024A</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Velkommen til Datastrukturer og Algoritmer - sat i spil</h1>
+    <p class="small">
+      Dette er HTML+JavaScript baseret udgave af det klassiske "Hej, hvad hedder du?" program.<br />
+      Det er ofte brugt som introduktion til input og output i programmeringsundervisning.
+    </p>
+    <p class="small">
+      Denne udgave er allerede skrevet - din opgave er blot at læse og forstå koden.<br />
+      Læs mere på Github: <a href="https://github.com/petlatkea/dsa-intro">https://github.com/petlatkea/dsa-intro</a>
+    </p>
+
+    <hr />
+
+    <form id="ask-name">
+      <label for="firstname">Hvad hedder du?</label>
+      <input type="text" name="firstname" id="firstname" placeholder="Peter" />
+      <button>Svar</button>
+    </form>
+
+    <form id="ask-age">
+      <label for="age">Hej <span data-field="firstname"></span>, hvor gammel er du?</label>
+      <input type="number" name="age" id="age" placeholder="26" />
+      <button>Svar</button>
+    </form>
+
+    <form id="ask-birthyear">
+      <p id="conclusion">Okay, <span data-field="firstname"></span>, så må du være født i <span data-field="birthyear"></span>, er det korrekt?</p>
+      <label><input type="radio" name="correct" value="yes" id="" />Ja</label>
+      <label><input type="radio" name="correct" value="no" id="" />Nej</label>
+      <button>Svar</button>
+    </form>
+
+    <p id="success">Tænkte det nok - en computer kan trods alt regne!</p>
+    <p id="failure">Nå da, så har du nok allerede haft fødselsdag i år - til lykke!</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
